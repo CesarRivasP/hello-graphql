@@ -7,7 +7,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const client = new ApolloClient({
-  link: new HttpLink({ uri: 'https://mpjk0plp9.lp.gql.zone/graphql' }),
+  // link: new HttpLink({ uri: 'https://mpjk0plp9.lp.gql.zone/graphql' }),
+  link: new HttpLink({ uri: 'https://48p1r2roz4.sse.codesandbox.io' }),
   cache: new InMemoryCache()
 });
 
